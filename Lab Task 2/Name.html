@@ -6,6 +6,7 @@
     <title>Name</title>
 </head>
 <body>
+    <form id="nameForm">
     <table>
         <tr>
             <td>
@@ -14,14 +15,22 @@
         </tr>
         <tr>
             <td>
-              <input type="text">
+              <input type="text" id="nameInput" placeholder="First Last">
             </td>
         </tr>
         <tr>
             <td>
-                <input type="button" value="Submit">
+                <input type="button" id="submitBtn" value="Submit">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p id="msg" aria-live="polite"></p>
             </td>
         </tr>
     </table>
+    </form>
+
+    <script src="/Lab Task 3/Name.js"></script>
 </body>
 </html>

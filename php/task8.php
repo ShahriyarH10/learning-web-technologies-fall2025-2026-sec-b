@@ -28,20 +28,22 @@
     );
 
     // Print patterns from arrays
-    echo "Pattern from Array 1:\n";
+    echo "Pattern from Array 1:<br>";
     foreach ($array1 as $row) {
         foreach ($row as $value) {
             echo $value;
+            echo "\n";
         }
-        echo "\n";
+        echo "<br>";
     }
 
-    echo "\nPattern from Array 2:\n";
+    echo "\nPattern from Array 2: <br>";
     foreach ($array2 as $row) {
         foreach ($row as $value) {
             echo $value . " ";
+            echo "\n";
         }
-        echo "\n";
+        echo "<br>";
     }
     ?>
 </body>

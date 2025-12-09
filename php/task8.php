@@ -14,8 +14,6 @@
     <?php
     // Task 8: 2D Array Patterns
     
-    echo "Task 8: 2D Array Patterns\n\n";
-
     // 1. Declare 2D arrays
     $array1 = array(
         array(1, 2, 3),
@@ -29,26 +27,16 @@
         array('D', 'E', 'F')
     );
 
-    // 2. Print array contents
-    echo "Array 1 (Number pattern):\n";
-    print_r($array1);
-    echo "\n";
-
-    echo "Array 2 (Alphabet pattern):\n";
-    print_r($array2);
-    echo "\n";
-
-    // 3. Print patterns from arrays
-    echo "Patterns from Array 1:\n";
+    // Print patterns from arrays
+    echo "Pattern from Array 1:\n";
     foreach ($array1 as $row) {
         foreach ($row as $value) {
             echo $value;
         }
         echo "\n";
     }
-    echo "\n";
 
-    echo "Patterns from Array 2:\n";
+    echo "\nPattern from Array 2:\n";
     foreach ($array2 as $row) {
         foreach ($row as $value) {
             echo $value . " ";
